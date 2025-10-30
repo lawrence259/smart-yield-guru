@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 
-type Language = 'en' | 'hi' | 'es' | 'bn' | 'te';
+type Language = 'en' | 'hi' | 'es' | 'bn' | 'te' | 'ta';
 
 interface Translations {
   [key: string]: {
@@ -148,6 +148,34 @@ const translations: Translations = {
     humidity: 'తేమ',
     rainfall: 'వర్షపాతం',
     cropDetails: 'పంట వివరాలు',
+  },
+  ta: {
+    dashboard: 'டாஷ்போர்டு',
+    prices: 'பயிர் விலைகள்',
+    detection: 'பூச்சி கண்டறிதல்',
+    advisory: 'பயிர் ஆலோசனை',
+    weather: 'வானிலை',
+    welcomeTitle: 'ஸ்மார்ட் பயிர் ஆலோசனை அமைப்பு',
+    welcomeSubtitle: 'சிறந்த விளைச்சலுக்கான உங்கள் அறிவார்ந்த விவசாய துணை',
+    cropPricesTitle: 'நேரடி பயிர் விலைகள்',
+    cropPricesDesc: 'நேரடி சந்தை விலைகளை கண்காணிக்கவும்',
+    pestDetectionTitle: 'பூச்சி மற்றும் நோய் கண்டறிதல்',
+    pestDetectionDesc: 'AI-இயங்கும் படம் பகுப்பாய்வு',
+    cropAdvisoryTitle: 'பயிர் ஆலோசனை',
+    cropAdvisoryDesc: 'நிபுணர் விவசாய வழிகாட்டுதல்',
+    weatherTitle: 'வானிலை புதுப்பிப்புகள்',
+    weatherDesc: 'உள்ளூர் வானிலை முன்னறிவிப்புகள்',
+    uploadImage: 'படத்தை பதிவேற்றவும்',
+    analyzeImage: 'பூச்சிகள் மற்றும் நோய்களுக்கு பகுப்பாய்வு செய்யவும்',
+    dragDrop: 'இழுத்து விடவும் அல்லது பதிவேற்ற கிளிக் செய்யவும்',
+    currentPrice: 'தற்போதைய விலை',
+    pricePerKg: '/கிலோ',
+    selectCrop: 'ஒரு பயிரை தேர்ந்தெடுக்கவும்',
+    getAdvice: 'நிபுணர் ஆலோசனை பெறவும்',
+    temperature: 'வெப்பநிலை',
+    humidity: 'ஈரப்பதம்',
+    rainfall: 'மழைப்பொழிவு',
+    cropDetails: 'பயிர் விவரங்கள்',
   },
 };
 

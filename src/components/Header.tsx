@@ -53,9 +53,10 @@ const Header = () => {
               <SelectContent>
                 <SelectItem value="en">English</SelectItem>
                 <SelectItem value="hi">हिंदी</SelectItem>
-                <SelectItem value="es">Español</SelectItem>
-                <SelectItem value="bn">বাংলা</SelectItem>
+                <SelectItem value="ta">தமிழ்</SelectItem>
                 <SelectItem value="te">తెలుగు</SelectItem>
+                <SelectItem value="bn">বাংলা</SelectItem>
+                <SelectItem value="es">Español</SelectItem>
               </SelectContent>
             </Select>
 
