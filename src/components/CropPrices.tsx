@@ -6,12 +6,12 @@ const CropPrices = () => {
   const { t } = useLanguage();
 
   const crops = [
-    { name: 'Wheat', price: 25.50, change: 2.3, trend: 'up' },
-    { name: 'Rice', price: 32.00, change: -1.2, trend: 'down' },
-    { name: 'Corn', price: 18.75, change: 4.5, trend: 'up' },
-    { name: 'Soybeans', price: 45.20, change: 1.8, trend: 'up' },
-    { name: 'Cotton', price: 38.50, change: -0.5, trend: 'down' },
-    { name: 'Sugarcane', price: 15.30, change: 3.2, trend: 'up' },
+    { name: 'Wheat', price: 2150, change: 2.3, trend: 'up' },
+    { name: 'Rice', price: 2800, change: -1.2, trend: 'down' },
+    { name: 'Corn', price: 1850, change: 4.5, trend: 'up' },
+    { name: 'Soybeans', price: 4200, change: 1.8, trend: 'up' },
+    { name: 'Cotton', price: 6500, change: -0.5, trend: 'down' },
+    { name: 'Sugarcane', price: 320, change: 3.2, trend: 'up' },
   ];
 
   return (
@@ -40,7 +40,7 @@ const CropPrices = () => {
                   <div>
                     <p className="text-sm text-muted-foreground">{t('currentPrice')}</p>
                     <p className="text-2xl font-bold text-foreground">
-                      ${crop.price}
+                      ₹{crop.price}
                       <span className="text-sm font-normal text-muted-foreground">{t('pricePerKg')}</span>
                     </p>
                   </div>
